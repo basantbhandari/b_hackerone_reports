@@ -1,0 +1,253 @@
+bounty,disclosed date from current date,reported from to,severity,status,title,upvote
+disclosed about 1 day ago,By yvvdwf to GitLab,Resolved,"$33,510.00",Critical,RCE via github import,32
+disclosed about 1 day ago,By yvvdwf to GitLab,Resolved,"$10,270.00",High,CSP-bypass XSS in project settings page,21
+disclosed about 1 day ago,By yvvdwf to GitLab,Resolved,"$6,580.00",High,XSS: `v-safe-html` is not safe enough,13
+disclosed about 1 day ago,By cryptopone to GitLab,Resolved,"$13,950.00",High,New /add_contacts /remove_contacts quick commands susseptible to XSS from Customer Contact firstname/lastname fields,15
+disclosed 13 days ago,By legit-security to GitLab,Resolved,"$7,640.00",High,DOS via issue preview,20
+,By otoyyy to GitLab,Resolved,disclosed 13 days ago,Low,Path paths and file disclosure vulnerabilities at influxdb.quality.gitlab.net,5
+disclosed 13 days ago,By legit-security to GitLab,Resolved,"$2,300.00",Medium,DOS via move_issue,15
+disclosed 13 days ago,By vakzz to GitLab,Resolved,"$22,300.00",Medium,RepositoryPipeline allows importing of local git repos,56
+disclosed about 1 month ago,By vakzz to GitLab,Resolved,"$33,510.00",Critical,Remote Command Execution via Github import,100
+disclosed 2 months ago,By joaxcar to GitLab,Resolved,"$8,690.00",High,Content injection in Jira issue title enabling sending arbitrary POST request as victim,44
+disclosed 2 months ago,By joaxcar to GitLab,Resolved,"$1,990.00",Medium,Unauthenticated IP allowlist bypass when accessing job artifacts through gitlab pages at `{group_id}.gitlab.io`,9
+disclosed 2 months ago,By joaxcar to GitLab,Resolved,"$13,950.00",High,XSS in ZenTao integration affecting self hosted instances without strict CSP,68
+,By pullrequest to GitLab,Not-applicable,disclosed 2 months ago,None,No Restriction on password,1
+,By afewgoats to GitLab,Resolved,disclosed 2 months ago,Medium,ReDoS in net/http affects webhooks: Sidekiq job stuck at 100% CPU for a year,8
+disclosed 2 months ago,By vakzz to GitLab,Resolved,"$33,510.00",Critical,RCE via the DecompressedArchiveSizeValidator and Project BulkImports (behind feature flag),100
+,By aliyugombe to MTN Group,Resolved,disclosed 2 months ago,Low,Exposed gitlab repo at https://adammanco.mtn.com/api/v4/projects,3
+,By mega7 to GitLab,Informative,disclosed 3 months ago,Medium,Unauthorized access,9
+,By carrers to GitLab,Informative,disclosed 4 months ago,Medium,Found Origin IP's lead to access to gitlab,2
+,By xanbanx to GitLab,Resolved,disclosed 4 months ago,High,Stored XSS for Grafana dashboard URL,17
+,By sateeshn to GitLab,Resolved,disclosed 4 months ago,Critical,Able to view hackerone reports attachments,95
+disclosed 4 months ago,By ledz1996 to GitLab,Resolved,"$10,000.00",High,Exposure of a valid Gitlab-Workhorse JWT leading to various bad things,30
+,By thypon to GitLab,Informative,disclosed 5 months ago,Medium,Bypass for Domain-level redirects (Unvalidated Redirects and Forwar),6
+disclosed 5 months ago,By ooooooo_q to GitLab,Resolved,"$1,130.00",Medium,XSS by clicking Jira's link,9
+disclosed 5 months ago,By ehhthing to GitLab,Resolved,"$1,680.00",Medium,Gitlab Pages token theft using service workers,9
+disclosed 5 months ago,By joaxcar to GitLab,Resolved,$610.00,Medium,"""External status checks"" can be accepted by users below developer access if the user is either author or assignee of the target merge request",11
+disclosed 5 months ago,By jarij to GitLab,Resolved,"$3,000.00",High,Stored XSS on issue comments and other pages which contain notes,32
+disclosed 5 months ago,By saltyyolk to GitLab,Resolved,"$12,000.00",High,"Path traversal, to RCE",100
+disclosed 5 months ago,By saltyyolk to GitLab,Resolved,"$20,000.00",Critical,Steal private objects of other projects via project import,100
+disclosed 5 months ago,By saltyyolk to GitLab,Resolved,"$20,000.00",Critical,Private objects exposed through project import,100
+disclosed 5 months ago,By saltyyolk to GitLab,Resolved,"$12,000.00",High,Path traversal in Nuget Package Registry,83
+disclosed 6 months ago,By joaxcar to GitLab,Resolved,"$13,950.00",High,Stored XSS in Notes (with CSP bypass for gitlab.com),100
+disclosed 6 months ago,By joaxcar to GitLab,Resolved,"$8,690.00",High,Arbitrary POST request as victim user from HTML injection in Jupyter notebooks,44
+disclosed 6 months ago,By kannthu to GitLab,Resolved,"$2,000.00",Medium,Stored XSS in repository file viewer,23
+,By ec0 to GitLab,Informative,disclosed 7 months ago,High,Container escape on public GitLab CI runners,11
+,By vakzz to GitLab,Resolved,disclosed 7 months ago,"$3,000.00",RCE via WikiCloth markdown rendering if the `rubyluabridge` gem is installed,46
+disclosed 8 months ago,By joaxcar to GitLab,Resolved,"$3,000.00",High,Stored XSS in merge request creation page through payload in approval rule name,29
+,By pranto_0 to UPchieve,Not-applicable,disclosed 8 months ago,Medium,No Rate Limit on forgot password page,2
+disclosed 8 months ago,By vakzz to GitLab,Resolved,"$29,000.00",Critical,Arbitrary file read via the bulk imports UploadsPipeline,100
+disclosed 9 months ago,By joaxcar to GitLab,Resolved,$610.00,Medium,"IDOR in ""external status check"" API leaks data about any status check on the instance",23
+disclosed 9 months ago,By iwis to GitLab,Resolved,"$1,500.00",Medium,Sending Arbitrary Requests through Jupyter Notebooks on gitlab.com and Self-Hosted GitLab Instances,14
+,By jafarakhondali to GitLab,Resolved,disclosed 9 months ago,$100.00,Installing Gitlab runner with Docker-In-Docker allows root access,9
+disclosed 10 months ago,By joaxcar to GitLab,Resolved,$950.00,Medium,"Improper access control for users with expired password, giving the user full access through API and Git",38
+disclosed 11 months ago,By s4nderdevelopment to GitLab,Resolved,"$1,370.00",Medium,Change project visibility to a restricted option,49
+disclosed 11 months ago,By youstin to GitLab,Resolved,"$4,850.00",High,Cache poisoning Denial of Service affecting assets.gitlab-static.net,68
+,By afewgoats to Open-Xchange,Resolved,disclosed 11 months ago,Low,Guard WKS lookup: Evil WKS server forces connections to last forever,11
+disclosed 12 months ago,By misha98857 to GitLab,Resolved,"$3,000.00",High,Stored XSS via Mermaid Prototype Pollution vulnerability,43
+,By jobert to GitLab,Informative,disclosed about 1 year ago,Medium,Use of Ruby Forwardable module and runtime meta-programming may introduce vulnerabilities,1
+disclosed about 1 year ago,By doyensec to GitLab,Resolved,$600.00,Medium,ReDoS in syntax highlighting due to Rouge,13
+disclosed about 1 year ago,By vakzz to GitLab,Resolved,$750.00,Medium,Drive-by arbitrary file deletion in the GDK via letter_opener_web gem,23
+,By haxor31337 to IBM,Resolved,disclosed about 1 year ago,Critical,Remote Code Execution at https://169.38.86.185/ (edst.ibm.com),47
+,By saleemrashid to GitLab,Resolved,disclosed about 1 year ago,High,Stored XSS in Mermaid when viewing Markdown files,42
+disclosed about 1 year ago,By maruthi12 to GitLab,Resolved,$600.00,Medium,"Reporters can upload design to issues using the ""Move to"" feature",17
+disclosed about 1 year ago,By vakzz to GitLab,Resolved,"$16,000.00",Critical,Stored XSS in markdown via the DesignReferenceFilter,100
+disclosed about 1 year ago,By joaxcar to GitLab,Resolved,"$1,020.00",Medium,"Privilege escalation of ""external user"" (with maintainer privilege) to internal access through project token",59
+,By sickcodes to Tor,Informative,disclosed about 1 year ago,High,Tor Browser using --log or --verbose logs the exact connection time a client connects to any v2 domains.,3
+disclosed about 1 year ago,By maruthi12 to GitLab,Resolved,$610.00,Low,Guest Users can create issues for Sentry errors and track their status,25
+disclosed about 1 year ago,By joaxcar to GitLab,Resolved,"$3,000.00",High,"Stored XSS in main page of a project caused by arbitrary script payload in group ""Default initial branch name""",73
+disclosed about 1 year ago,By joaxcar to GitLab,Resolved,"$1,370.00",Medium,A deactivated user can access data through GraphQL,35
+disclosed about 1 year ago,By maruthi12 to GitLab,Resolved,$200.00,Low,A profile page of a user can be denied from loading by appending .html to the username,24
+disclosed about 1 year ago,By maruthi12 to GitLab,Resolved,$650.00,Medium,Guest users can create new test cases,49
+disclosed about 1 year ago,By retroplasma to GitLab,Resolved,"$2,000.00",Medium,"When you call your branch the same name as a git hash, it could be checked out by dependents",39
+,By vovohelo to GitLab,Resolved,disclosed about 1 year ago,Medium,Clipboard DOM-based XSS,32
+,By none_of_the_above to HackerOne,Resolved,disclosed about 1 year ago,High,Internal Gitlab Ticket Disclosure via External Slack Channels,100
+disclosed about 1 year ago,By az3z3l to GitLab,Resolved,"$3,370.00",High,CSRF on /api/graphql allows executing mutations through GET requests,66
+,By ba5d2d132de8622c890dd60 to GitLab,Informative,disclosed about 1 year ago,None,Stored-XSS in merge requests,6
+disclosed about 1 year ago,By ooooooo_q to GitLab,Resolved,"$3,000.00",High,Stored XSS in custom emoji,100
+,By ajxchapman to GitLab,Resolved,disclosed about 1 year ago,High,FogBugz import attachment full SSRF requiring vulnerability in *.fogbugz.com,51
+disclosed about 1 year ago,By yvvdwf to GitLab,Resolved,"$3,500.00",High,Stored-XSS in merge requests,31
+disclosed about 1 year ago,By yvvdwf to GitLab,Resolved,"$1,500.00",Medium,Stored-XSS on wiki pages,53
+disclosed about 1 year ago,By taraszelyk to GitLab,Resolved,"$3,000.00",High,Stored XSS via Mermaid Prototype Pollution vulnerability,50
+disclosed about 1 year ago,By taraszelyk to GitLab,Resolved,"$3,000.00",High,Stored DOM XSS via Mermaid chart,25
+,By mzaheri to GitLab,Informative,disclosed about 1 year ago,High,Responsible Disclosure of Privacy Leakage Issue,7
+disclosed about 1 year ago,By saltyyolk to GitLab,Resolved,"$16,000.00",Critical,Arbitrary file read during project import,100
+disclosed about 1 year ago,By ledz1996 to GitLab,Resolved,"$5,600.00",High,Kroki Arbitrary File Read/Write,38
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$20,000.00",Critical,RCE when removing metadata with ExifTool,100
+disclosed 2 years ago,By circuit to GitLab,Resolved,"$3,000.00",Medium,XSS in request approvals,93
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$20,000.00",Critical,RCE via unsafe inline Kramdown options when rendering certain Wiki pages,100
+,By hx01 to GitLab,Resolved,disclosed 2 years ago,High,Ability To Delete User(s) Account Without User Interaction,100
+disclosed 2 years ago,By muthu_prakash to GitLab,Resolved,"$1,500.00",Medium,Revoked User can still view the Merge Request created by him via API,7
+,By pandaonair to GitLab,Resolved,disclosed 2 years ago,Low,[information disclosure] Validate existence of a private project.,13
+,By chroduath to GitLab,Duplicate,disclosed 2 years ago,Medium,GraphQL Query leads to sensitive information disclosure,12
+,By anshraj_srivastava to GitLab,Resolved,disclosed 2 years ago,Medium,Remote hacker can download all the files of master branch in public projects where everything is members only.,29
+disclosed 2 years ago,By maruthi12 to GitLab,Resolved,$500.00,Low,View the Starred Projects in a Private Profile,44
+disclosed 2 years ago,By mike12 to GitLab,Resolved,"$3,000.00",High,Stored XSS on the job page,49
+,By vaib25vicky to GitLab,Resolved,disclosed 2 years ago,Medium,Able to leak private email of any user given his/her username via graphql,27
+disclosed 2 years ago,By yvvdwf to GitLab,Resolved,"$3,000.00",High,Store-XSS in error message of build-dependencies,35
+disclosed 2 years ago,By ngalog to GitLab,Resolved,$500.00,Low,[Admin Panel] CSRF to resume/pause runner,56
+,By vaib25vicky to GitLab,Resolved,disclosed 2 years ago,High,Unauthorized user is able to access schedule pipeline variables and values,9
+,By chromium1337 to GitLab,Resolved,disclosed 2 years ago,High,CRLF injection & SSRF in git:// protocal lead to arbitrary code execution,19
+disclosed 2 years ago,By yvvdwf to GitLab,Resolved,"$1,500.00",Medium,XSS on Issue reference numbers,46
+disclosed 2 years ago,By mike12 to GitLab,Resolved,"$2,000.00",Medium,Stored XSS in group issue list,27
+,By vaib25vicky to GitLab,Resolved,disclosed 2 years ago,Medium,Unauthorized access to private project security dashboard,23
+disclosed 2 years ago,By 0xwintermute to GitLab,Resolved,$100.00,Low,Guest users can change the confidentiality attribute on those issues that have been assigned to them,10
+disclosed 2 years ago,By chaosbolt to GitLab,Resolved,"$1,000.00",Low,Instant open redirect on Live preview WEB Ide opening,20
+,By ajxchapman to GitLab,Resolved,disclosed 2 years ago,High,GitLab-Runner on Windows `DOCKER_AUTH_CONFIG` container host Command Injection,74
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$4,000.00",High,SafeParamsHelper::safe_params is not so safe,21
+disclosed 2 years ago,By ledz1996 to GitLab,Resolved,"$5,000.00",High,"Insufficient Type Check leading to Developer ability to delete Project, Repository, Group, ...",16
+disclosed 2 years ago,By ledz1996 to GitLab,Resolved,"$4,000.00",High,Insufficient Type Check on GraphQL leading to Maintainer delete repository,13
+,By vaib25vicky to GitLab,Resolved,disclosed 2 years ago,Medium,Todos are not redacted when membership changes - Access to (confidential) issues and merge requests,6
+,By steppe to GitLab,Resolved,disclosed 2 years ago,Low,Possibilty to purchase Ultimate - 1 Year (EDU or OSS),21
+,By rpadovani to GitLab,Resolved,disclosed 2 years ago,Medium,Elasticsearch leaks data through the notes scope,7
+,By rpadovani to GitLab,Resolved,disclosed 2 years ago,Medium,Transferring a public group to a private group doesn't remove code from the Elastichsearch API search result,12
+disclosed 2 years ago,By cache-money to GitLab,Resolved,"$3,000.00",High,Ability to bypass email verification for OAuth grants results in accounts takeovers on 3rd parties,100
+,By sadd_man to GitLab,Not-applicable,disclosed 2 years ago,High,Adding everyone to the repo due to the lack of rate limit,6
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$5,000.00",High,Stored XSS in markdown when redacting references,47
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$3,000.00",Medium,Stored XSS on PyPi simple API endpoint,23
+disclosed 2 years ago,By jackb898 to GitLab,Resolved,$500.00,Low,EXIF metadata not stripped from JPG group logos,48
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$3,000.00",High,Injection of `http.<url>.*` git config settings leading to SSRF,33
+,By kryword to GitLab,Resolved,disclosed 2 years ago,High,Members from parent group keep their access level on a subgroup transfer and are invisible,3
+disclosed 2 years ago,By lucash-dev to GitLab,Resolved,"$2,000.00",Medium,"SSRF into Shared Runner, by replacing dockerd with malicious server in Executor",11
+disclosed 2 years ago,By rioncool22 to GitLab,Resolved,"$2,500.00",High,"Stored XSS in ""Create Groups""",86
+disclosed 2 years ago,By u3mur4 to GitLab,Resolved,"$12,000.00",Critical,An attacker can run pipeline jobs as arbitrary user,100
+,By skavans to GitLab,Resolved,disclosed 2 years ago,Critical,Privilege escalation from any user (including external) to gitlab admin when admin impersonates you,100
+,By rpadovani to GitLab,Resolved,disclosed 2 years ago,High,Stealing data from customers.gitlab.com without user interaction,20
+disclosed 2 years ago,By sky003 to GitLab,Resolved,"$3,000.00",Medium,Initial mirror user can be assigned by other user even if the mirror was removed,3
+disclosed 2 years ago,By plazmaz to GitLab,Resolved,$100.00,Medium,SSRF In plantuml (on plantuml.pre.gitlab.com),12
+,By rhynorater to GitLab,Resolved,disclosed 2 years ago,Critical,Full Read SSRF on Gitlab's Internal Grafana,100
+disclosed 2 years ago,By yvvdwf to GitLab,Resolved,"$2,000.00",Medium,Stored XSS in blob viewer,34
+,By semsem123 to GitLab,Resolved,disclosed 2 years ago,Medium,Unrestricted file upload leads to Stored XSS,82
+disclosed 2 years ago,By yvvdwf to GitLab,Resolved,"$3,000.00",Medium,Send arbitrary PUT requests when user clicks on a link,100
+,By nafisaqil to Weblate,Resolved,disclosed 2 years ago,None,Open Github Repo Leaking WEBLATE SECRET KEY,19
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$10,000.00",Critical,gitlab-workhorse bypass in Gitlab::Middleware::Multipart allowing files in `allowed_paths` to be read,100
+disclosed 2 years ago,By vakzz to GitLab,Resolved,"$10,000.00",High,SSRF on project import via the remote_attachment_url on a Note,100
+disclosed 3 years ago,By gregxsunday to GitLab,Resolved,"$1,000.00",Low,No redirect_uri in the db for web-internal clientKey leads to one-click DoS on gitter.im,24
+disclosed 3 years ago,By vakzz to GitLab,Resolved,"$20,000.00",Critical,Arbitrary file read via the UploadsRewriter when moving and issue,100
+,By mclaren650sspider to GitLab,Resolved,disclosed 3 years ago,High,Server Side Request Forgery mitigation bypass,100
+,By shaileshpratapwar to GitLab,Not-applicable,disclosed 3 years ago,None,Email notification about login email changed is not received when using verified linked email address,2
+,By ooooooo_q to GitLab,Not-applicable,disclosed 3 years ago,Low,Double linking cause XSS (but blokeced by CSP in gitlab.com),6
+disclosed 3 years ago,By ryhmnlfj to GitLab,Resolved,"$1,000.00",Medium,Uncontrolled Resource Consumption in any Markdown field using Mermaid,30
+disclosed 3 years ago,By vakzz to GitLab,Resolved,"$12,000.00",Critical,Git flag injection - local file overwrite to remote code execution,100
+disclosed 3 years ago,By vakzz to GitLab,Resolved,"$3,500.00",Critical,Git flag injection leading to file overwrite and potential remote code execution,100
+disclosed 3 years ago,By vakzz to GitLab,Resolved,"$3,500.00",High,Cross-site Scripting (XSS) - Stored in RDoc wiki pages,100
+disclosed 3 years ago,By vakzz to GitLab,Resolved,"$7,000.00",High,Git flag injection - Search API with scope 'blobs',100
+,By rpadovani to GitLab,Resolved,disclosed 3 years ago,High,"Group search leaks private MRs, code, commits",100
+,By rpadovani to GitLab,Resolved,disclosed 3 years ago,High,Group search with Elastic search enable leaks unrelated data,95
+disclosed 3 years ago,By ngalog to GitLab,Resolved,"$1,500.00",High,Bypass Email Verification using Salesforce -- Reproducible in gitlab.com,46
+disclosed 3 years ago,By logan5 to GitLab,Resolved,"$1,500.00",Medium,Blocked user Git access through CI/CD token,9
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Medium,Container scanning and Dependency scanning report leaked to unauthorized users,8
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Low,Head pipeline leaked to unauthorized users via blocking merge request feature,10
+disclosed 3 years ago,By ngalog to GitLab,Resolved,"$1,000.00",Low,Private System Note Disclosure using GraphQL,16
+disclosed 3 years ago,By uzsunnyz to GitLab,Resolved,"$1,000.00",Low,Project Milestones Disclosed Via Groups When the Victim disabled milestones access in project settings,3
+,By ajxchapman to GitLab,Resolved,disclosed 3 years ago,High,GitLab::UrlBlocker validation bypass leading to full Server Side Request Forgery,63
+,By ajxchapman to GitLab,Resolved,disclosed 3 years ago,High,Importing GitLab project archives can replace uploads of other users,100
+,By rpadovani to GitLab,Resolved,disclosed 3 years ago,Medium,"GraphQL query ""namespace"" leaks data",58
+disclosed 3 years ago,By jobert to GitLab,Resolved,"$12,000.00",Critical,"Project Template functionality can be used to copy private project data, such as repository, confidential issues, snippets, and merge requests",100
+disclosed 3 years ago,By 8ayac to GitLab,Resolved,"$1,000.00",Low,DoS attack via comment on Issue,79
+,By geeknik to PuTTY (European Commission - DIGIT),Resolved,disclosed 3 years ago,Medium,"Assertion `len == 1' failed, process aborted while streaming ouput from remote server",5
+,By geeknik to PuTTY (European Commission - DIGIT),Resolved,disclosed 3 years ago,Low,"Assertion `col >= 0 && col < line->cols' failed, process aborted while streaming ouput from remote server",3
+,By ashish_r_padelkar to GitLab,Resolved,disclosed 3 years ago,Low,Know whether private project name exists or not within a group using link comments,57
+disclosed 3 years ago,By petee to GitLab,Resolved,"$1,000.00",Low,Privilege escalation due to insecure use of logrotate,29
+disclosed 3 years ago,By abdilahrf_ to GitLab,Resolved,"$1,000.00",Low,Clientside resource Exhausting by exploiting gitlab math rendering,50
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Medium,Bypassing push rules via MRs created by Email,33
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Low,Last pipeline status for MR leaked,9
+,By linkks to Mail.ru,Resolved,disclosed 3 years ago,None,Открытые сорцы,4
+disclosed 3 years ago,By indoappsec to GitLab,Resolved,"$1,000.00",Low,Add and Access to Labels of any Private Projects/Groups of Gitlab(IDOR),20
+,By samlyhin to Node.js third-party modules,Resolved,disclosed 3 years ago,Critical,gitlabhook OS Command Injection,8
+disclosed 3 years ago,By ryhmnlfj to GitLab,Resolved,"$4,500.00",High,Stored XSS in Wiki pages,100
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Low,Last build status and coverage leaked to unauthorized users,23
+disclosed 3 years ago,By mario-areias to GitLab,Resolved,$750.00,Low,Persistent XSS via e-mail when creating merge requests,24
+disclosed 3 years ago,By ngalog to GitLab,Resolved,"$3,000.00",Medium,Bypass Email Verification -- Able to Access Internal Gitlab Services that use Login with Gitlab and Perform Check on email domain,100
+disclosed 3 years ago,By jobert to GitLab,Resolved,"$2,000.00",Medium,GitLab's GitHub integration is vulnerable to SSRF vulnerability,24
+disclosed 3 years ago,By uzsunnyz to GitLab,Resolved,"$1,000.00",Low,Access Projects And create projects in gitlab pre production server,26
+disclosed 3 years ago,By 8ayac to GitLab,Resolved,"$1,000.00",Low,All functions that allow users to specify color code are vulnerable to ReDoS,50
+,By xanbanx to GitLab,Resolved,disclosed 3 years ago,Low,Milestones leaked via search API,40
+disclosed 3 years ago,By saltyyolk to GitLab,Resolved,"$4,500.00",High,Persistent XSS in Note objects,100
+disclosed 3 years ago,By saltyyolk to GitLab,Resolved,"$12,000.00",Critical,"Local files could be overwritten in GitLab, leading to remote command execution",100
+,By yashrs to GitLab,Resolved,disclosed 3 years ago,High,Attacker is able to access commit title and team member comments which are supposed to be private,100
+disclosed 3 years ago,By paresh_parmar to GitLab,Resolved,"$3,500.00",High,information disclosure of secret_key_base via encoding charcters,100
+disclosed 4 years ago,By 8ayac to GitLab,Resolved,"$3,000.00",Medium,DoS on the Issue page by exploiting Mermaid.,100
+disclosed 4 years ago,By jobert to GitLab,Resolved,"$12,000.00",Critical,JSON serialization of any Project model results in all Runner tokens being exposed through Quick Actions,100
+,By rijalrojan to GitLab,Resolved,disclosed 4 years ago,Critical,"Full access to internal Gitlab instances at redash.gitlab.com, dashboards.gitlab.com, prometheus.gitlab.com",100
+disclosed 4 years ago,By plazmaz to GitLab,Resolved,"$3,000.00",Medium,SSRF in CI after first run,69
+disclosed 4 years ago,By ngalog to GitLab,Resolved,"$12,000.00",Critical,Bypass of GitLab CI runner slash fix in YAML validation,100
+,By rpadovani to GitLab,Resolved,disclosed 4 years ago,Medium,"Removing a user from a private group doesn't remove him from group's project, if his project's role was changed",12
+disclosed 4 years ago,By edoverflow to GitLab,Resolved,"$1,000.00",Low,Claiming package names in GitLab's automatic package referencer.,20
+disclosed 4 years ago,By jobert to GitLab,Resolved,"$4,000.00",High,Unauthenticated blind SSRF in OAuth Jira authorization controller,100
+,By dhakal_ananda to GitLab,Duplicate,disclosed 4 years ago,None,Inadequate cache control in gitter allows to view private chat room,12
+disclosed 4 years ago,By jobert to GitLab,Resolved,"$11,000.00",Critical,Exfiltrate and mutate repository and project data through injected templated service,100
+disclosed 4 years ago,By jobert to GitLab,Resolved,$300.00,Low,Snippet JS template allows attacker to read a user's private snippets,100
+,By uzkova to GitLab,Not-applicable,disclosed 4 years ago,None,Guests Will Disclose the Private Project Full Activity Via Project Activity Feeds,5
+,By 8ayac to GitLab,Resolved,disclosed 4 years ago,High,Stored XSS in merge request pages,17
+,By 8ayac to GitLab,Resolved,disclosed 4 years ago,Medium,Unauthorized users may be able to view almost all informations related to Private projects.,22
+,By 8ayac to GitLab,Resolved,disclosed 4 years ago,High,Stored XSS on Issue details page,15
+,By phillycheeze to GitLab,Resolved,disclosed 4 years ago,Medium,Persistent XSS - Deleting a project (No Longer Vulnerable in 10.7),7
+,By saltyyolk to GitLab,Resolved,disclosed 4 years ago,Critical,Vulnerability in project import leads to arbitrary command execution,30
+,By rootbakar_ to GitLab,Resolved,disclosed 4 years ago,Low,HTML TAG INJECTION ON PROFILE NAME,12
+,By rootbakar___ to GitLab,Duplicate,disclosed 4 years ago,Medium,Potensial SSRF via Git repository URL,6
+,By phillycheeze to GitLab,Resolved,disclosed 4 years ago,Medium,Persistent XSS - Selecting users as allowed merge request approvers,10
+,By phillycheeze to GitLab,Resolved,disclosed 4 years ago,High,XSS (Persistent) - Selecting role(s) for protected branches,8
+,By strukt to GitLab,Resolved,,disclosed 4 years ago,SSRF when importing a project from a git repo by URL,11
+disclosed 4 years ago,By jobert to GitLab,Resolved,$750.00,High,GitHub import allows user to create child group under existing namespace,13
+,By tangent90ninety to Ed,Resolved,disclosed 5 years ago,Medium,Session cookie missing SecureFlag on git.edoverflow.com.,6
+,By wuqidashi to GitLab,Resolved,disclosed 5 years ago,Medium,SSRF vulnerability in gitlab.com webhook,9
+,By cybertiger to Ed,Not-applicable,disclosed 5 years ago,None,Session Cookie Without Secure Flag,6
+disclosed 5 years ago,By jobert to GitLab,Resolved,"$2,000.00",Critical,GitLab CI runner can read and poison cache of all other projects,40
+disclosed 5 years ago,By jobert to GitLab,Resolved,$750.00,High,Evaluating Ruby code by injecting Rescue job on the system_hook_push queue through web hook,30
+disclosed 5 years ago,By jobert to GitLab,Resolved,"$2,000.00",Critical,Command injection by overwriting authorized_keys file through GitLab import,48
+disclosed 5 years ago,By jobert to GitLab,Resolved,"$2,000.00",Critical,SQL injection in MilestoneFinder order method,38
+,By tangent90ninety to Ed,Informative,disclosed 5 years ago,None,"Session Cookie Without Secure Flag,",5
+,By edoverflow to Ruby,Informative,,disclosed 5 years ago,Resolv::getaddresses bug that can be abused to bypass security measures.,4
+disclosed 5 years ago,By edoverflow to GitLab,Resolved,$750.00,High,Using GitLab to monitor and hijack domains in mass quantity.,34
+,By moritz30 to GitLab,Resolved,disclosed 5 years ago,Medium,Cookie bomb,5
+,By badshah_ to GitLab,Informative,disclosed 5 years ago,Medium,Lack of validation before assigning custom domain names leading to abuse of GitLab pages service,2
+,By oroborus to GitLab,Duplicate,disclosed 5 years ago,Medium,SSRF via git Repo by URL Abuse,2
+,By edoverflow to GitLab,Resolved,disclosed 5 years ago,Medium,SSRF vulnerability in gitlab.com via project import.,16
+,By ysx to GitLab,Resolved,disclosed 5 years ago,Medium,[Markdown] Stored XSS via character encoding parser bypass,20
+,By naure to GitLab,Resolved,disclosed 5 years ago,Medium,CSRF-Token leak by request forgery,4
+,By jobert to GitLab,Resolved,disclosed 5 years ago,Low,"Race condition in GitLab import, giving access to other people their imports due to filename collision",17
+,By joernchen to Internet Bug Bounty,Resolved,disclosed 5 years ago,High,RCE via ssh:// URIs in multiple VCS,39
+,By rpearl to GitLab,Resolved,disclosed 5 years ago,Critical,all private tokens are leaked to an unauthenticated attacker,20
+,By intidc to GitLab,Resolved,disclosed 5 years ago,Critical,Access to GitLab's Slack by abusing issue creation from e-mail,49
+,By cdl to GitLab,Resolved,disclosed 5 years ago,Low,Impersonation attack via Broken Link in Resellers Page,10
+,By b3nac to GitLab,Resolved,disclosed 5 years ago,Low,Gitlab is vulnerable to impersonation attacks due to broken links,18
+,By edoverflow to GitLab,Resolved,disclosed 5 years ago,Medium,CSV injection in gitlab.com via issues export feature.,19
+,By pruby to GitLab,Informative,disclosed 5 years ago,Low,Missing/Breach of Internal Security Boundary - Access to Job Queue Results in Remote Code Execution,0
+,By jobert to GitLab,Resolved,,disclosed 5 years ago,GFM renderer leaks external issue tracker URL of private project,6
+,By rajauzairabdullah to Weblate,Duplicate,disclosed 6 years ago,Medium,Open redirect in Signing in via Social Sites,3
+,By edoverflow to GitLab,Resolved,disclosed 6 years ago,Medium,Gitlab.com is vulnerable to reverse tabnabbing. (#2),8
+,By edoverflow to GitLab,Resolved,disclosed 6 years ago,Medium,Gitlab.com is vulnerable to reverse tabnabbing via AsciiDoc links. (#3),5
+,By jobert to GitLab,Resolved,disclosed 6 years ago,High,Stored XSS on Files overview by abusing git submodule URL,16
+,By a0xnirudh to GitLab,Resolved,,disclosed 6 years ago,Markdown based stored XSS (IE only),8
+,By 7h0r4pp4n to GitLab,Resolved,disclosed 6 years ago,Low,CSRF Token Bypass in Account Deletion,6
+,By chalker to GitLab,Resolved,disclosed 6 years ago,Medium,Unfiltered `class` attribute in markdown code,11
+,By eadz to GitLab,Resolved,disclosed 6 years ago,Medium,Open redirect,3
+,By ysx to GitLab,Resolved,disclosed 6 years ago,Medium,"[Repository Import] Open Redirect via ""continue[to]"" parameter",4
+,By ysx to GitLab,Resolved,disclosed 6 years ago,Medium,[Subgroups] Unprivileged User Can Disclose Private Group Names,7
+,By edoverflow to GitLab,Resolved,disclosed 6 years ago,Low,Gitlab.com is vulnerable to reverse tabnabbing.,7
+,By ysx to GitLab,Resolved,disclosed 6 years ago,Medium,[reStructuredText] XSS in project README files,7
+,By ysx to GitLab,Resolved,disclosed 6 years ago,Medium,[Textile] XSS in project README files,5
+,By ysx to GitLab,Resolved,disclosed 6 years ago,Medium,[RDoc] XSS in project README files,7
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Medium,Users can download old project exports due to unclaimed namespace,10
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Medium,Every user can delete public deploy keys,12
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Medium,User with guest access can access private merge requests,13
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Medium,"Users with guest access can post notes to private merge requests, issues, and snippets",9
+,By fransrosen to GitLab,Resolved,,disclosed 6 years ago,Mailgun misconfiguration leads to email snooping and postmaster@-access on email.mg.gitlab.com,28
+,By jobert to GitLab,Resolved,disclosed 6 years ago,High,State filter in IssuableFinder allows attacker to delete all issues and merge requests,11
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Critical,"Ability to access all user authentication tokens, leads to RCE",56
+,By jobert to GitLab,Resolved,disclosed 6 years ago,Critical,"Read files on application server, leads to RCE",100
+,By yaworsk to GitLab,Resolved,,disclosed 6 years ago,Insecure 2FA/authentication implementation creates a brute force vulnerability,30
+,By jobert to GitLab,Resolved,,disclosed 6 years ago,Boards leak private label names and desciptions,9
+,By plazmaz to GitLab,Resolved,,disclosed 6 years ago,XSS On meta tags in profile page,10
+,By jobert to GitLab,Resolved,,disclosed 6 years ago,Attacker can extract list of private project's project members,9
+,By jobert to GitLab,Resolved,,disclosed 6 years ago,Persistent XSS on public wiki pages,13
+,By jobert to GitLab,Resolved,,disclosed 6 years ago,Privilege escalation to access all private groups and repositories,16
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Persistent XSS on public project page,6
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Labels created in private projects are leaked,6
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Attacker can delete (and read) private project webhooks,5
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,"Attacker can post notes on private MR, snippets, and issues",5
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Confidential issues leaked in public projects when attached to milestone,4
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Private snippets in public / internal projects leaked though GitLab API,4
+,By jobert to GitLab,Resolved,,disclosed 7 years ago,Bypassing password authentication of users that have 2FA enabled,17
+,By lukasreschke to HackerOne,Resolved,,disclosed 7 years ago,"External links should use rel=""noopener"" or use the redirect service",6
